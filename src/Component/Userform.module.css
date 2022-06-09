@@ -1,0 +1,25 @@
+.houseImage img{
+        max-width: 70px;
+}
+.houseImage{
+    text-align: center;
+}
+.splashLogo{
+    text-align: center;
+}
+.splashLogo h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.fillQuestion{
+    text-align: center;
+}
+.fillQuestion h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fillQuestion p{
+    font-size: 14px;
+}

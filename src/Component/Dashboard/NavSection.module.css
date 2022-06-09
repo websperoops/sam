@@ -1,0 +1,8 @@
+.dashboarditems.active{
+    background-color: #3772ff24;
+    color: #3772ff;
+    border-right: 3px solid #3772ff;
+} 
+.dashboarditems.active svg path {
+    fill: #3772ff;
+}

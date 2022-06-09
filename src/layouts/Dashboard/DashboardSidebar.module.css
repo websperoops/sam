@@ -1,0 +1,23 @@
+
+.mainlogo{
+    text-align: center;
+}
+.mainlogo img{
+    width: 130px;
+}
+
+.sidebar_left{
+    border-right-style: solid;
+}
+
+.topbaropen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topbarclose{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

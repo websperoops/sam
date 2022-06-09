@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap');
+
+/* body {
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+} */
+
+.description-content .container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-banner img { 
+    width: 100%;
+}
+
+.description-content {
+    font-family: Public Sans,sans-serif;
+    position: relative;
+}
+
+.description-box {
+    background: #fff;
+    border-radius: 30px 30px 0 0;
+    margin-top: -50px;
+    padding: 40px 50px 40px 50px;
+    box-shadow: 0 30px 5px #e9e9e9;
+}
+
+.greyline {
+    width: 100px;
+    height: 7px;
+    background: #e5e5e5;
+    margin: 0 auto 50px;
+    border-radius: 50px;
+}
+
+.description-box h3 {
+    font-size: 34px;
+    color: #000939;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+p.price-p {
+    font-size: 28px;
+    color: #000939;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+p.price-p span {
+    color: #1a97f1;
+    font-weight: 700;
+}
+
+.description-box h4 {
+    color: #000939;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+p.sarah {
+    font-size: 24px;
+    color: #7b849b;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p.sarah img {
+    max-width: 22px;
+    margin-right: 2px;
+    object-fit: contain;
+    position: relative;
+    top: 2px;
+}
+
+p.property {
+    font-size: 24px;
+    color: #7b849b;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.amazing-para p {
+    font-size: 24px;
+    color: #7b849b;
+    line-height: 1.4;
+}
+
+.amazing-para ul li img {
+    max-width: 48px;
+}
+
+.amazing-para ul li {
+    font-size: 24px;
+    color: #7b849b;
+    border: 3px solid #d0d3db;
+    border-radius: 15px;
+    width: 15%;
+    padding: 20px 20px;
+}
+
+.amazing-para ul li span {
+    display: block;
+    color: #000939;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.amazing-para ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 35px;
+}
+
+.amazing-para {
+    border-top: 2px solid #d1cece;
+    border-bottom: 2px solid #d1cece;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.financial {
+    border-bottom: 2px solid #d1cece;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.financial p {
+    font-size: 24px;
+    color: #7b849b;
+    letter-spacing: 0.2px;
+}
+
+.financial p:last-child {
+    margin-bottom: 0;
+}
+
+.ammenties-box ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.img-amment img {
+    max-width: 64px;
+}
+
+.ammenties-box ul li {
+    padding-right: 20px;
+}
+
+.ammenties-box ul li:last-child {
+    padding-right: 0px;
+}
+
+.ammenties {
+    padding-top: 30px;
+}
+
+.ammenties-box ul li h2 {
+    font-size: 20px;
+    color: #000939;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.ammenties-box ul li p {
+    color: #7b849b;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.booking-button {
+    text-align: center;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.booking-button a {
+    text-decoration: none;
+    background: #3772ff;
+    display: inline-block;
+    padding: 20px 160px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .description-content .container {
+        width: 98%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .amazing-para ul li {
+        width: 25%;
+    }
+
+    .top-banner img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ammenties-box ul {
+        flex-wrap: wrap;
+    }
+
+    .description-box {
+        padding: 40px 25px 40px 25px;
+    }
+
+    .ammenties-box ul li {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .description-box h3 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    p.price-p {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .description-box h4 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .booking-button a {
+        padding: 20px 40px;
+        font-size: 24px;
+    }
+
+    .booking-button {
+        margin-top: 10px;
+    }
+
+    .greyline {
+        margin: 0 auto 40px;
+    }
+
+    .amazing-para ul {
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    .amazing-para ul li {
+        font-size: 14px;
+        border: 2px solid #d0d3db;
+        border-radius: 15px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    p.price-p {
+        font-size: 20px;
+    }
+
+    .description-box h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    p.sarah {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .financial {
+        border-bottom: 1px solid #d1cece;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .financial p {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .ammenties h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    p.property {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .amazing-para {
+        border-top: 1px solid #d1cece;
+        border-bottom: 1px solid #d1cece;
+        margin-top: 20px;
+    }
+
+    .amazing-para p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .amazing-para ul li img {
+        max-width: 34px;
+    }
+
+    .amazing-para ul li span {
+        margin: 4px 0 5px;
+    }
+
+    .financial h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ammenties-box ul li {
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-amment {
+        margin-right: 20px;
+    }
+
+    .ammenties-box ul li p {
+        font-size: 14px;
+    }
+
+    .ammenties-box ul li {
+        margin-bottom: 30px;
+    }
+
+    .ammenties-box ul li h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .img-amment img {
+        max-width: 40px;
+    }
+
+    .ammenties {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .amazing-para ul li {
+        font-size: 11px;
+        border: 2px solid #d0d3db;
+        border-radius: 15px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .booking-button a {
+        padding: 14px 40px;
+        font-size: 20px;
+    }
+    }
+
+    .user_modal{
+        max-width: 600px;
+    }

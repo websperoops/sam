@@ -1,0 +1,127 @@
+.loginContainer{
+    background-color: hsl(210, 20%, 98%);
+    height: 100vh;
+}
+.leftside{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgb(145 158 171 / 24%) 0px 1px 2px 0px;
+    border-radius: 16px;
+} 
+.leftside h3{
+    color: #212b36;
+    font-size: 2rem;
+    padding: 0 20px;
+}
+.rightside{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rightside h4.signHeading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    font-family: "Public Sans", sans-serif;
+}
+.rightside p.subheading{
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    color: #637381;
+    margin: 0px 0px 30px;
+}
+img.login_image {
+    max-width: 400px;
+}
+.left_side_col{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 15px;
+}
+.right_side_col{
+    flex-basis: 75%; 
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 1200px) {
+    .rightside {
+        max-width: 40%;
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    img.login_image {
+        max-width: 320px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .left_side_col {
+        flex-basis: 30%;
+        max-width: 30%;
+    }
+    .right_side_col{
+        flex-basis: 70%; 
+        max-width: 70%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .left_side_col {
+        flex-basis: 40%;
+        max-width: 40%;
+    }
+    .right_side_col{
+        flex-basis: 60%; 
+        max-width: 60%;
+        display: block;
+    }
+    .loginContainer{
+        padding-right: 20px;
+    }
+ 
+}
+@media only screen and (max-width: 1023px) {
+    .leftside h3 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    img.login_image {
+        max-width: 260px;
+    }
+}
+@media only screen and (max-width: 767px) {
+body{
+    margin: 0;
+}
+img.login_image {
+    max-width: 200px;
+}
+.leftside h3 {
+    font-size: 20px;
+}
+.rightside h4.signHeading {
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 640px) {
+    .left_side_col {
+display: none;
+    }
+    .loginContainer{
+        padding-right: 0;
+    }
+    .right_side_col {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}

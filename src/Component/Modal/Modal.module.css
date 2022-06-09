@@ -1,0 +1,16 @@
+.dialogtitle {
+  color: #212b36;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topheader {
+  background: #eeeeee;
+  border-bottom: 1 px solid #f2f2f2;
+}
+
+@media screen and (max-width: 480px) {
+  .dialogtitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
