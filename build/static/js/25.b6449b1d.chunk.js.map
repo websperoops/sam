@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Openhouseform.js"],"names":["Openhouseform"],"mappings":"+GAMiBA,UANK,WAClB,OACE","file":"static/js/25.b6449b1d.chunk.js","sourcesContent":["const Openhouseform = () => {\n    return(\n      <h1>Open House Attendees</h1>\n    );\n  };\n  \n  export default Openhouseform;"],"sourceRoot":""}

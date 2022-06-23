@@ -1,0 +1,2 @@
+(this.webpackJsonpsam=this.webpackJsonpsam||[]).push([[24],{481:function(e,s,t){"use strict";t.r(s);var n=t(5);s.default=function(){return Object(n.jsx)("h1",{children:"Open House Attendees"})}}}]);
+//# sourceMappingURL=24.80c0d5f1.chunk.js.map

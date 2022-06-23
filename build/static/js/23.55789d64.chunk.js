@@ -1,0 +1,2 @@
+(this.webpackJsonpsam=this.webpackJsonpsam||[]).push([[23],{475:function(s,t,n){"use strict";n.r(t);n(0);var c=n(5);t.default=function(){return Object(c.jsx)("div",{children:"NotFound"})}}}]);
+//# sourceMappingURL=23.55789d64.chunk.js.map
